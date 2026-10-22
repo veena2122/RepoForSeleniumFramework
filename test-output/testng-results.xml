@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser ]]>
+    </line>
+    <line>
+      <![CDATA[Login ]]>
+    </line>
+    <line>
+      <![CDATA[Logout ]]>
+    </line>
+    <line>
+      <![CDATA[CloseBrowser ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-17T14:21:48 IST" name="Default suite" finished-at="2026-10-17T14:22:10 IST" duration-ms="22211">
+    <groups>
+    </groups>
+    <test started-at="2026-10-17T14:21:48 IST" name="Default test" finished-at="2026-10-17T14:22:10 IST" duration-ms="22211">
+      <class name="com.actitime.testScript.CustometModule1">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testScript.CustometModule1@6a78afa0]" started-at="2026-10-17T14:21:48 IST" name="openBrowser" finished-at="2026-10-17T14:21:50 IST" duration-ms="2352" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testScript.CustometModule1@6a78afa0]" started-at="2026-10-17T14:21:50 IST" name="login" finished-at="2026-10-17T14:21:51 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testModifyCustomer()[pri:0, instance:com.actitime.testScript.CustometModule1@6a78afa0]" started-at="2026-10-17T14:21:51 IST" name="testModifyCustomer" finished-at="2026-10-17T14:22:09 IST" duration-ms="18111" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [HHBB] but found [All Customers]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [HHBB] but found [All Customers]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.actitime.testScript.CustometModule1.testModifyCustomer(CustometModule1.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModifyCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testScript.CustometModule1@6a78afa0]" started-at="2026-10-17T14:22:09 IST" name="logOut" finished-at="2026-10-17T14:22:10 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testScript.CustometModule1@6a78afa0]" started-at="2026-10-17T14:22:10 IST" name="closeBrowser" finished-at="2026-10-17T14:22:10 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CloseBrowser ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testScript.CustometModule1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
